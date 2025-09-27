@@ -7,7 +7,7 @@ console.log(date1);
 let date2 = new Date("2024/06/20/10:11:12"); // 문자열로 날짜를 지정
 console.log(date2);
 
-// 2. 타임 스탬프
+// 2. 타임 스탬프 ㅎ
 // -> 1970년 1월 1일 0시 0분 0초(UTC)를 기준으로 경과한 시간을 밀리초 단위로 나타낸 정수
 // UTC : 협정 세계시 (Universal Time Coordinated)
 let ts1 = date1.getTime(); // 1970년 1월 1일 0시 0분 0초

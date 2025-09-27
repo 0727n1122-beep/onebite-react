@@ -5,12 +5,12 @@
 
 // 1. forEach
 // -> 모든 요소를 순회하면서, 각각의 요소에 특정 동작을 수행시키는 메서드
-// -> 배열의 각 요소에 대해 콜백함수를 실행하는 메서드를
+// -> 배열의 각 요소에 대해 콜백함수를 실행하는 메서드를 
 
 let arr1 = [1, 2, 3];
 arr1.forEach(function(item, index, array){
-    console.log(index, item*2);
-});
+    console.log(index, item*2); 
+}); 
 // item : 현재 순회중인 요소
 // index : 현재 순회중인 요소의 인덱스
 // array : 현재 순회중인 배열 자체
@@ -38,6 +38,8 @@ let index2 = arr1.indexOf(5); //-1 (존재하지 않는 요소는 -1 반환)
 // 4. findIndex
 // -> 배열에서 특정 조건을 만족하는 첫 번째 요소의 인덱스를 반환하는 메서드
 // -> 콜백함수를 인수로 받아서, 콜백함수가 true를 반환하는 첫 번째 요소의 인덱스를 반환
+
+let foundIndex = arr1.findIndex((item) => item > 1); //1
 
 
 // 복잡한 객체 타입의 값을 찾을 때는 findIndex를 사용

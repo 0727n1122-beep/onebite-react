@@ -53,8 +53,11 @@ arr2.sort((a, b) => {
 // -> 배열의 요소들을 사전순으로 정렬한 새로운 배열을 반환하는 메서드
 // -> 원본 배열은 변경되지 않음
 
+let sortedArr = arr2.toSorted();
+console.log(sortedArr); // [1, 1, 3, 4, 5, 9
+
 // 5. join 
 // -> 배열의 모든 요소를 문자열로 변환하여 하나의 문자열로 합치는 메서드
 let arr3 = ['Hello', 'World', 'JavaScript'];
 let str = arr3.join('-'); // 'Hello World JavaScript'
-console.log(str);
+console.log(str); 
