@@ -1,11 +1,13 @@
 import "./App.css";
 import Viewer from "./components/Viewer";
 import Controller from "./components/Controller";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 function App() {
   const [count, setCount] = useState(0);
+
+  useEffect(() => {}, []);
 
     const onClickButton = (value) => {
     if (value === "reset") {
